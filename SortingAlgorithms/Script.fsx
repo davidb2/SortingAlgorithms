@@ -1,10 +1,8 @@
-﻿// Learn more about F# at http://fsharp.org. See the 'F# Tutorial' project
-// for more guidance on F# programming.
-
+﻿#load "Queue.fs"
 #load "Algorithms.fs"
-#load "Queue.fs"
 #load "SetStackSize.fs"
 #load "../packages/FSharp.Charting.0.90.14/FSharp.Charting.fsx"
+
 open SortingAlgorithms
 open Queue
 open FSharpx.Books.AutomatedReasoning.initialization
